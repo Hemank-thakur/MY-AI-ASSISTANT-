@@ -84,15 +84,6 @@ elif "open downloads" in fun:
     voice(g)
     os.startfile(r"C:\Users\264031  17KIN\Downloads")
 
-#elif "open coding world" in fun:
- #   g = "thank you,for your confirmation , now i am goining to open your coding world"
-#  voice(g)
- #   os.startfile("F:\\")
-
-#elif "open college world" in fun:
- #   g = "thank you,for your confirmation , now i am goining to open your college world"
-  #  voice(g)
-   # os.startfile("G:\\")
 
 # todo webbrowser or internet
 elif "open youtube" in fun:
@@ -170,12 +161,6 @@ elif 'open drive' in fun:
     voice(g)
     path = r"C:"
     os.startfile(path)
-
-# elif 'open java' in fun:
-#     g = "thank you,for your confirmation , now i am goining to open IntelliJ Java"
-#     voice(g)
-#     path = "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2021.3\\bin\\idea64.exe"
-#     os.startfile(path)
 
 # todo command promt
 elif 'command prompt' in fun:
